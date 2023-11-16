@@ -7,6 +7,7 @@ import pandas as pd: Imports the Pandas library and assigns it the alias pd. Pan
 import numpy as np: Imports the NumPy library and assigns it the alias np. NumPy is used for numerical operations on arrays and matrices.
 import matplotlib.pyplot as plt: Imports the pyplot module from the Matplotlib library and assigns it the alias plt. Matplotlib is a popular plotting library.
 import seaborn as sns: Imports the Seaborn library and assigns it the alias sns. Seaborn is built on top of Matplotlib and provides a high-level interface for statistical graphics.
+
 Reading Data:
 
 train_data = pd.read_csv('train.csv'): Reads the data from a CSV file named 'train.csv' and stores it in a Pandas DataFrame named train_data. This assumes that the training data is stored in a CSV file.
